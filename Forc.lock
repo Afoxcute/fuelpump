@@ -1,0 +1,61 @@
+[[package]]
+name = "AMM-contract"
+source = "member"
+dependencies = [
+    "libraries",
+    "std",
+]
+
+[[package]]
+name = "atomic-add-liquidity"
+source = "member"
+dependencies = [
+    "libraries",
+    "std",
+]
+
+[[package]]
+name = "core"
+source = "path+from-root-841ED074400F52FC"
+
+[[package]]
+name = "exchange-contract"
+source = "member"
+dependencies = [
+    "libraries",
+    "std",
+]
+
+[[package]]
+name = "libraries"
+source = "path+from-root-0A0D5AF9717FBB89"
+dependencies = ["std"]
+
+[[package]]
+name = "malicious-implementation"
+source = "member"
+dependencies = [
+    "libraries",
+    "std",
+]
+
+[[package]]
+name = "std"
+source = "git+https://github.com/fuellabs/sway?rev#4fe6f1ed5134914f1133bb7032e9fe7165255cc6"
+dependencies = ["core"]
+
+[[package]]
+name = "swap-exact-input"
+source = "member"
+dependencies = [
+    "libraries",
+    "std",
+]
+
+[[package]]
+name = "swap-exact-output"
+source = "member"
+dependencies = [
+    "libraries",
+    "std",
+]
